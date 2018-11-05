@@ -1,0 +1,11 @@
+1.command + F3 切换到桌面
+2.command + shift + 4 截取部分屏幕/ + 3 截取全屏幕  在桌面生成
+3.选取内容后 control + command + d 查询内容 / 三个手指轻触 
+4.打开spotlight后输入内容 command + d 在字典中查询内容
+5.option + command + space / 在terminal里 open .  打开finder
+6.选取内容option + command + n 生成一个新的文本文件并将选取内容添加进去
+7.command + w 关闭当前窗口但不退出系统
+8.command + m最小化当前窗口
+******自己设置的快捷键******
+1.command + `	打开terminal 
+2shift + command + x	.打开文本编辑
