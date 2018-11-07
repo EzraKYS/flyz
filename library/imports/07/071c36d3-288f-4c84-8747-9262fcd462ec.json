@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "购物车",
+    "texture": "85bca856-3b11-43e8-8fde-19377c8b91e4",
+    "atlas": "",
+    "rect": [
+      43,
+      45,
+      113,
+      104
+    ],
+    "offset": [
+      -0.5,
+      3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

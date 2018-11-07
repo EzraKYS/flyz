@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "重置",
+    "texture": "1d2c34a7-5b59-4c3d-ac6b-3e49a3ebc135",
+    "atlas": "",
+    "rect": [
+      12,
+      31,
+      176,
+      144
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

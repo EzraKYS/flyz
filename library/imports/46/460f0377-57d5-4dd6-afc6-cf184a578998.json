@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "英文语言",
+    "texture": "336ec461-38d9-498f-847a-5d17041dc6da",
+    "atlas": "",
+    "rect": [
+      13,
+      19,
+      173,
+      159
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

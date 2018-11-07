@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "switching2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": -4021
+        }
+      ]
+    },
+    "paths": {
+      "fluid2": {
+        "props": {
+          "height": [
+            {
+              "frame": 0,
+              "value": 650
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 650
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1461
+            },
+            {
+              "frame": 0.5,
+              "value": 1461
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

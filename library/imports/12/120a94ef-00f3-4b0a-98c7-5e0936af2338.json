@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "绿洲_重置",
+    "texture": "1b57ba89-143d-4ec9-98bd-e1310338a639",
+    "atlas": "",
+    "rect": [
+      6,
+      13,
+      185,
+      173
+    ],
+    "offset": [
+      -1.5,
+      0.5
+    ],
+    "originalSize": [
+      200,
+      200
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

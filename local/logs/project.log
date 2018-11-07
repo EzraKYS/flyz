@@ -1,0 +1,141 @@
+2018-11-07T04:39:02.540Z - normal: Load ~/.CocosCreator/settings.json
+2018-11-07T04:39:02.543Z - normal: checking language setting...
+2018-11-07T04:39:02.544Z - normal: Language: zh
+2018-11-07T04:39:03.146Z - success: protocol editor-framework registered
+2018-11-07T04:39:03.147Z - success: protocol app registered
+2018-11-07T04:39:03.147Z - success: protocol theme registered
+2018-11-07T04:39:03.148Z - success: protocol packages registered
+2018-11-07T04:39:03.148Z - success: protocol unpack registerred
+2018-11-07T04:39:03.148Z - success: protocol disable-commonjs registerred
+2018-11-07T04:39:03.255Z - normal: connected!
+2018-11-07T04:39:03.257Z - normal: Check project /Users/risingstarKYS/Documents/TextGame
+2018-11-07T04:39:03.262Z - normal: Initializing project /Users/risingstarKYS/Documents/TextGame
+2018-11-07T04:39:03.267Z - normal: Initializing Cocos2d
+2018-11-07T04:39:04.087Z - normal: Initializing Asset Database
+2018-11-07T04:39:04.132Z - success: protocol uuid registerred
+2018-11-07T04:39:04.132Z - success: protocol db registerred
+2018-11-07T04:39:04.132Z - success: protocol thumbnail registerred
+2018-11-07T04:39:04.132Z - normal: Loading editor/builtin packages
+2018-11-07T04:39:04.317Z - success: assets loaded
+2018-11-07T04:39:04.322Z - success: builder loaded
+2018-11-07T04:39:04.324Z - success: cocos-analytics loaded
+2018-11-07T04:39:04.330Z - success: console loaded
+2018-11-07T04:39:04.369Z - success: fb-instant-games loaded
+2018-11-07T04:39:04.376Z - success: hierarchy loaded
+2018-11-07T04:39:04.381Z - success: inspector loaded
+2018-11-07T04:39:04.383Z - success: keystore loaded
+2018-11-07T04:39:04.390Z - success: node-library loaded
+2018-11-07T04:39:04.392Z - success: package-asset loaded
+2018-11-07T04:39:04.394Z - success: preferences loaded
+2018-11-07T04:39:04.398Z - success: project-exporter loaded
+2018-11-07T04:39:04.417Z - success: project-importer loaded
+2018-11-07T04:39:04.420Z - success: project-settings loaded
+2018-11-07T04:39:04.425Z - success: ui-kit loaded
+2018-11-07T04:39:04.429Z - success: scene loaded
+2018-11-07T04:39:04.431Z - success: sprite-editor loaded
+2018-11-07T04:39:04.436Z - success: store loaded
+2018-11-07T04:39:04.441Z - success: timeline loaded
+2018-11-07T04:39:04.442Z - normal: Loading builtin packages
+2018-11-07T04:39:04.456Z - success: asset-db-debugger loaded
+2018-11-07T04:39:04.457Z - success: color-picker loaded
+2018-11-07T04:39:04.459Z - success: jsb-adapter loaded
+2018-11-07T04:39:04.464Z - success: package-manager loaded
+2018-11-07T04:39:04.601Z - success: qqplay-adapter loaded
+2018-11-07T04:39:04.608Z - success: sdkbox loaded
+2018-11-07T04:39:04.613Z - success: tester loaded
+2018-11-07T04:39:04.619Z - success: ui-grid loaded
+2018-11-07T04:39:04.623Z - success: ui-kit-preview-extra loaded
+2018-11-07T04:39:04.628Z - success: ui-kit-preview loaded
+2018-11-07T04:39:04.633Z - success: ui-tree loaded
+2018-11-07T04:39:04.634Z - success: weapp-adapter loaded
+2018-11-07T04:39:05.757Z - normal: Loading packages
+2018-11-07T04:39:05.773Z - normal: [LuaCPP Support] version 0.4
+2018-11-07T04:39:05.774Z - success: creator-luacpp-support loaded
+2018-11-07T04:39:05.774Z - normal: Watching packages
+2018-11-07T04:39:05.864Z - normal: Run Application
+2018-11-07T04:39:06.516Z - success: preview server running at http://localhost:7456
+2018-11-07T04:39:13.923Z - error: TypeError: Cannot read property '_uuid' of null
+    at callonEnableInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/misc.js:65:24), <anonymous>:7:28)
+    at CCClass.cc.Class.statics.invokeOnEnable.compScheduler [as _invoke] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:218:29)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:116:22)
+    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/node-activator.js:166:35)
+    at cc_Scene._activate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCScene.js:60:44)
+    at cc.Director.runSceneImmediate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDirector.js:217:23)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDirector.js:327:42
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCAssetLibrary.js:63:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/CCLoader.js:139:46
+2018-11-07T04:39:13.969Z - error: TypeError: Cannot read property '_uuid' of null
+    at callstartInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/misc.js:65:24), <anonymous>:7:28)
+    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:185:29)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:116:22)
+    at CCClass.startPhase (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:349:35)
+    at cc.Director.mainLoop.CC_EDITOR._purgeDirectorInNextLoop [as mainLoop] (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDirector.js:432:41)
+    at EditorEngine.tickInEditMode (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/editor-engine/index.js:1:2597)
+    at EditorEngine._tick (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/editor-engine/index.js:1:5622)
+2018-11-07T04:39:24.392Z - error: Error: node should not deactivated
+    at callonDisableInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/misc.js:65:24), <anonymous>:7:28)
+    at CCClass.disableComp (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:308:29)
+    at cc_Node._disableChildComps (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:573:52)
+    at cc_Node._disableChildComps (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:579:30)
+    at cc_Node._disableChildComps (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:579:30)
+    at cc_Node._disableChildComps (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:579:30)
+    at cc_Scene._disableChildComps (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:579:30)
+    at cc_Scene.destroy (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/base-node.js:586:30)
+    at cc_Scene.destroy (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCScene.js:37:22)
+2018-11-07T04:39:34.800Z - normal: Simulator: WORKAREA WIDTH 1280.00, HEIGHT 755.00
+2018-11-07T04:39:34.801Z - normal: Simulator: FRAME SCALE = 0.25
+2018-11-07T04:39:34.959Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-11-07T04:39:34.959Z - normal: Simulator: 
+2018-11-07T04:39:34.959Z - normal: Simulator: {
+2018-11-07T04:39:34.960Z - normal: Simulator: 	build_type: DEBUG
+2018-11-07T04:39:34.962Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-11-07T04:39:34.964Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-11-07T04:39:34.964Z - normal: Simulator: 	gl.renderer: Intel Iris OpenGL Engine
+2018-11-07T04:39:34.964Z - normal: Simulator: 	gl.supports_ATITC: false
+2018-11-07T04:39:34.965Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-11-07T04:39:34.965Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-11-07T04:39:34.965Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-11-07T04:39:34.966Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-11-07T04:39:34.966Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-11-07T04:39:34.966Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-11-07T04:39:34.967Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-11-07T04:39:34.967Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-11-07T04:39:34.968Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2018-11-07T04:39:34.968Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-11-07T04:39:34.968Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.0.34
+2018-11-07T04:39:34.968Z - normal: Simulator: 	gl.supports_S3TC: true
+2018-11-07T04:39:34.969Z - normal: Simulator: 	compiled_with_profiler: false
+2018-11-07T04:39:34.970Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-11-07T04:39:34.971Z - normal: Simulator: }
+2018-11-07T04:39:34.976Z - normal: Simulator: Project Config:
+2018-11-07T04:39:34.976Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-11-07T04:39:34.977Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-11-07T04:39:34.977Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-11-07T04:39:34.978Z - normal: Simulator:     frame size: 1080 x 1920
+2018-11-07T04:39:34.978Z - normal: Simulator:     frame scale: 0.25
+2018-11-07T04:39:34.978Z - normal: Simulator:     show console: NO
+2018-11-07T04:39:34.980Z - normal: Simulator:     write debug log: NO ()
+2018-11-07T04:39:34.980Z - normal: Simulator:     listen: 
+2018-11-07T04:39:34.980Z - normal: Simulator:     debugger: none
+2018-11-07T04:39:34.981Z - normal: Simulator:     add searching path:
+2018-11-07T04:39:34.981Z - normal: Simulator: resetDesignResolution request
+2018-11-07T04:39:34.982Z - normal: Simulator: ------------------------------------------------
+2018-11-07T04:39:34.982Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-11-07T04:39:34.982Z - normal: Simulator: ------------------------------------------------
+2018-11-07T04:39:34.983Z - normal: Simulator: Initializing JavaScriptCore 
+2018-11-07T04:39:35.087Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2018-11-07T04:39:35.089Z - normal: Simulator: resetDesignResolution request
+2018-11-07T04:39:35.089Z - normal: Simulator: ------------------------------------------------
+2018-11-07T04:39:35.092Z - normal: Simulator: LOAD Js FILE: main.js
+2018-11-07T04:39:35.095Z - normal: Simulator: ------------------------------------------------
+2018-11-07T04:39:35.537Z - normal: Simulator: iShow!
+2018-11-07T04:39:35.693Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2018-11-07T04:39:35.693Z - normal: Simulator: glGetIntegerv: pname: 0x8869
+2018-11-07T04:39:35.705Z - normal: Simulator: JS: Cocos Creator v2.0.2
+2018-11-07T04:39:35.947Z - error: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1487)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-11-07T04:39:36.160Z - normal: Simulator: JS: 2222
